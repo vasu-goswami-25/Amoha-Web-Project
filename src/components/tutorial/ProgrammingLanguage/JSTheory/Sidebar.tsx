@@ -1,7 +1,7 @@
 
 import React, { useEffect, useState } from "react";
 import { ChevronDown, ChevronRight } from "lucide-react";
-import type { SidebarItem } from "../../../../components/tutorial/ProgrammingLanguage/JSTheory/JSData";
+import type { SidebarItem } from "./JSData";
 
 
 interface SidebarProps {

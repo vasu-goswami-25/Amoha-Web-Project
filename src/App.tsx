@@ -25,7 +25,7 @@ import ProgramingLang  from "./pages/PracticePage/ProgramingLang.tsx";
 
 import Homepage from "./pages/MainPage/Homepage";
 import Practice from "./pages/PracticePage/Praactice"
-import CppTutorial from "./components/tutorial/ProgrammingLanguage/CPPTheory/CppTutorial.tsx";
+import CppTutorial from "./components/tutorial/programminglanguage/cpptheory/CppTutorial.tsx";
 
 
 // IMPORT TUTORIAL SECTION PAGE
@@ -78,17 +78,17 @@ import ExploreAllComponent from "./components/Course/ExploreAllComponent.tsx";
 // import CyberSecurityTutorial from "./components/ComputerScienceCoreSubject/Systems&Networking/CyberSecurity Tutorial/CyberSecurityTutorial.tsx";
 // import DbmsTutorial from "./components/ComputerScienceCoreSubject/Data&Databases/Database Management System(DBMS)/DbmsTutorial.tsx";
 // import WarehousingTutorial from "./components/ComputerScienceCoreSubject/Data&Databases/Data Warehousing/WarehousingTutorial.tsx";
-import GO from "./components/tutorial/ProgrammingLanguage/GO/GO.tsx";
-import Kotlin from "./components/tutorial/ProgrammingLanguage/Kotlin/Kotlin.tsx";
-import Swift from "./components/tutorial/ProgrammingLanguage/Swift/Swift.tsx";
+import GO from "./components/tutorial/programminglanguage/go/GO.tsx";
+import Kotlin from "./components/tutorial/programminglanguage/kotlin/Kotlin.tsx";
+import Swift from "./components/tutorial/programminglanguage/swift/Swift.tsx";
 import ComputerFundamental from "./components/tutorial/ComputerScienceCoreSubjects/CoreFoundations/ComputerFundamentals/ComputerFundamental.tsx";
 import EngMath from "./components/tutorial/ComputerScienceCoreSubjects/CoreFoundations/EngineeringMathematics/EngMath.tsx";
 import MathCS from "./components/tutorial/ComputerScienceCoreSubjects/CoreFoundations/MathForComputerScience/MathCS.tsx";
-import JSTutorial from "./components/tutorial/ProgrammingLanguage/JSTheory/JSTutorial.tsx";
-import TypescriptTutorial from "./components/tutorial/ProgrammingLanguage/TypescriptTheory/TypescriptTutorial.tsx";
-import Csharp from "./components/tutorial/ProgrammingLanguage/Csharp/Csharp.tsx";
-import JavaTutorial from "./components/tutorial/ProgrammingLanguage/JavaTheory/JavaTutorial.tsx";
-import PythonTutorial from "./components/tutorial/ProgrammingLanguage/PythonTheory/pythonTutorial.tsx";
+import JSTutorial from "./components/tutorial/programminglanguage/jstheory/JSTutorial.tsx";
+import TypescriptTutorial from "./components/tutorial/programminglanguage/typescriptheory/TypescriptTutorial.tsx";
+import Csharp from "./components/tutorial/programminglanguage/csharp/Csharp.tsx";
+import JavaTutorial from "./components/tutorial/programminglanguage/javatheory/JavaTutorial.tsx";
+import PythonTutorial from "./components/tutorial/programminglanguage/pythontheory/pythonTutorial.tsx";
 
 
 

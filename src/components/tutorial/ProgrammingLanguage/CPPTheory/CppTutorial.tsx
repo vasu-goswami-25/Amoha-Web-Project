@@ -35,7 +35,7 @@ const flattenData = (data: typeof tutorialData): string[] => {
 
 const CppTutorial: React.FC<CppTutorialProps> = ({ darkMode }) => {
   
-  const flatHrefs = useMemo(() => flattenData(tutorialData), [tutorialData]);
+  const flatHrefs = useMemo(() => flattenData(tutorialData), []);
   const [activeHref, setActiveHref] = useState(flatHrefs.length > 0 ? flatHrefs[0] : "cpp_home.asp");
   const currentIndex = flatHrefs.indexOf(activeHref);
   const goPrevious = () => {

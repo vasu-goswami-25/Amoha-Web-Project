@@ -91,7 +91,7 @@
 import React, { useState, useMemo } from "react";
 import Sidebar from "./Sidebar";
 import MainContent from "./MainContent";
-import { tutorialData, tutorialContent, type SidebarItem } from "../../../../components/tutorial/ProgrammingLanguage/TypescriptTheory/Typescript.Data";
+import { tutorialData, tutorialContent, type SidebarItem } from "./Typescript.Data";
 
 interface CppTutorialProps {
  darkMode: boolean;

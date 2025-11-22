@@ -34,6 +34,7 @@ const Sidebar: React.FC<SidebarProps> = ({ data, activeHref, onSelect, darkMode 
       });
       setOpenItems(parentHrefsToOpen);
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [activeHref, data]);
 
   const toggleItem = (href: string) => {

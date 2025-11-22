@@ -1,6 +1,6 @@
 
 import React from "react";
-import { type TopicContent } from "../../../../components/tutorial/ProgrammingLanguage/JSTheory/JSData";
+import { type TopicContent } from "./JSData";
 
 interface MainContentProps {
   topic?: TopicContent;

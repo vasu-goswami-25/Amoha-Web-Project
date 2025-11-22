@@ -119,7 +119,7 @@
 
 import React, { useEffect, useState } from "react";
 import { ChevronDown, ChevronRight } from "lucide-react";
-import type { SidebarItem } from "../../../../components/tutorial/ProgrammingLanguage/TypescriptTheory/Typescript.Data";
+import type { SidebarItem } from "./Typescript.Data";
 
 interface SidebarProps {
   data: SidebarItem[];

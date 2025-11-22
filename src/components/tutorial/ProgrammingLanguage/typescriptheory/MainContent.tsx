@@ -41,7 +41,7 @@
 
 
 import React from "react";
-import { type TopicContent } from   "../../../../components/tutorial/ProgrammingLanguage/TypescriptTheory/Typescript.Data";
+import { type TopicContent } from   "./Typescript.Data";
 
 interface MainContentProps {
   topic?: TopicContent;

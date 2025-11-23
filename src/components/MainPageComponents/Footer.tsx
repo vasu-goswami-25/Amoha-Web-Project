@@ -100,7 +100,7 @@ const Footer: React.FC<FooterProps> = ({ darkMode }) => {
             © Copyright <strong>Amoha Codes</strong>. All Rights Reserved
           </div>
 
-          <div className="text-sm sm:text-base text-center">
+          <div className="text-sm sm:text-base text-center mr-32">
             <span className="text-white dark:text-gray-300">Developed by:- </span>
             <a
               href="https://www.linkedin.com/in/vasugoswami25/"
@@ -110,15 +110,7 @@ const Footer: React.FC<FooterProps> = ({ darkMode }) => {
             >
               Vasu Goswami
             </a>
-            <span className="text-white"> & </span>
-            <a
-              href="https://www.linkedin.com/in/sakshi-sharma-87b247297/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-semibold text-white hover:underline hover:text-purple-300 transition-colors"
-            >
-              Sakshi Sharma
-            </a>
+            
             <span className="text-gray-600 dark:text-gray-300">.</span>
           </div>
 

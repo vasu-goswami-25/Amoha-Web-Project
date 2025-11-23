@@ -91,7 +91,7 @@
 import React, { useState, useMemo } from "react";
 import Sidebar from "./Sidebar";
 import MainContent from "./MainContent";
-import { tutorialData, tutorialContent, type SidebarItem } from "./Typescript.Data";
+import { tutorialData, tutorialContent, type SidebarItem } from "../../../../components/tutorial/ProgrammingLanguage/TypescriptTheory/Typescript.Data";
 
 interface CppTutorialProps {
  darkMode: boolean;
@@ -124,7 +124,7 @@ const flattenData = (data: typeof tutorialData): string[] => {
 
 const TypescriptTutorial: React.FC<CppTutorialProps> = ({ darkMode }) => {
   
-  const flatHrefs = useMemo(() => flattenData(tutorialData), [tutorialData]);
+  const flatHrefs = useMemo(() => flattenData(tutorialData), []);
   const [activeHref, setActiveHref] = useState(flatHrefs.length > 0 ? flatHrefs[0] : "cpp_home.asp");
   const currentIndex = flatHrefs.indexOf(activeHref);
   const goPrevious = () => {

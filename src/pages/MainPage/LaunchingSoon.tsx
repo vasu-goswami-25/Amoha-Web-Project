@@ -1,4 +1,4 @@
-import CppTutorial from "../../components/tutorial/programminglanguage/cpptheory/CppTutorial"
+import CppTutorial from "../../components/tutorial/ProgrammingLanguage/CPPTheory/CppTutorial"
 
 function LaunchingSoon() {
   return (

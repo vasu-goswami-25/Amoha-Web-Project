@@ -1,6 +1,6 @@
 
 import React from "react";
-import { type TopicContent } from "./pythonData";
+import { type TopicContent } from "../../../../components/tutorial/ProgrammingLanguage/PythonTheory/pythonData";
 
 interface MainContentProps {
   topic?: TopicContent;

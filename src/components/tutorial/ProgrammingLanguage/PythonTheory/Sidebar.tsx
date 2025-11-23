@@ -1,7 +1,7 @@
 
 import React, { useEffect, useState } from "react";
 import { ChevronDown, ChevronRight } from "lucide-react";
-import type { SidebarItem } from "./pythonData";
+import type { SidebarItem } from "../../../../components/tutorial/ProgrammingLanguage/PythonTheory/pythonData";
 
 
 interface SidebarProps {
@@ -35,6 +35,7 @@ const Sidebar: React.FC<SidebarProps> = ({ data, activeHref, onSelect, darkMode 
       });
       setOpenItems(parentHrefsToOpen);
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [activeHref, data]);
 
   const toggleItem = (href: string) => {

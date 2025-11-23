@@ -2,7 +2,7 @@
 import React, { useState, useMemo } from "react";
 import Sidebar from "./Sidebar";
 import MainContent from "./MainContent";
-import { tutorialData, tutorialContent, type SidebarItem } from "./JSData";
+import { tutorialData, tutorialContent, type SidebarItem } from "../JSTheory/JSData";
 
 
 interface pythonTutorialProps {

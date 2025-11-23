@@ -119,7 +119,7 @@
 
 import React, { useEffect, useState } from "react";
 import { ChevronDown, ChevronRight } from "lucide-react";
-import type { SidebarItem } from "./Typescript.Data";
+import type { SidebarItem } from "../../../../components/tutorial/ProgrammingLanguage/TypescriptTheory/Typescript.Data";
 
 interface SidebarProps {
   data: SidebarItem[];
@@ -152,6 +152,7 @@ const Sidebar: React.FC<SidebarProps> = ({ data, activeHref, onSelect, darkMode 
       });
       setOpenItems(parentHrefsToOpen);
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [activeHref, data]);
 
   const toggleItem = (href: string) => {
